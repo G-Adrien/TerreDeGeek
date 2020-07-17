@@ -17,6 +17,8 @@ html {
   line-height: 1.4;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -89,10 +91,17 @@ textarea {
 /* General rules */
 body{
 
-  height: 667px;
+  height: auto;
   width: 375px;
 }
 
+a{
+  text-decoration: none;
+}
+
+img{
+  object-fit: contain;
+}
 
 /* Utility classes */
 
@@ -101,19 +110,103 @@ body{
 
 header{
   background-color: #2E5266;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header p{
+header a{
   color: white;
+  border: solid 2px #E2C044;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin-right: 8px;
+  
 }
 
+.placementLogo{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EEDB95;
+}
+
+main h3{
+  text-align: center;
+}
+
+.price{
+  display: flex;
+  justify-content: center;
+}
+
+main a{
+  margin-bottom: 7px;
+  color: black;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding:0 10px;
+}
+
+main p{
+  padding: 5px;
+  text-align: center;
+}
+main li{
+  list-style-type: none;
+  font-size: 10;
+}
+main ul{
+  padding: 0;
+}
+
+.PC{
+  width: 40%;
+}
+
+article{
+  background-color: white;
+}
+
+article{
+  border: solid 1px #B2B2B2;
+  border-radius: 3px;
+  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  display: flex;
+  width: 90%;
+  margin-bottom: 8px;
+}
 
 /* Footer*/
 
 footer{
   background-color: #6E8898;
+  width: 100%;
+  height: %;
 }
-/* Nav */
 
+footer p{
+  margin: 0;
+  font-size: small;
+  color: white;
+  text-align: center;
+}
 
 /* Index */
 
