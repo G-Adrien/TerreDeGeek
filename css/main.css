@@ -87,21 +87,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* General rules */
+body{
 
-*{
-  
+  height: 667px;
+  width: 375px;
 }
+
 
 /* Utility classes */
-
-.mainBg{
-  background-color: aqua;
-}
 
 
 /* Header */
 
+header{
+  background-color: #2E5266;
+}
+header p{
+  color: white;
+}
 
+
+/* Footer*/
+
+footer{
+  background-color: #6E8898;
+}
 /* Nav */
 
 
