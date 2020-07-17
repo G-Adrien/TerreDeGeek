@@ -5,6 +5,8 @@
 
 Maquette de site professionnel en **HTML / CSS** 
 
+Projets  en HTML et CSS pour apprendre à créer des interfaces graphiques pour le web, sites non dynamiques version mobile.
+
 Ci-dessous extrait de l'énoncé :
  
 
