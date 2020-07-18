@@ -105,7 +105,7 @@ img{
 
 /* Utility classes */
 
-
+/* Index */
 /* Header */
 
 header{
@@ -156,7 +156,7 @@ main h3{
   justify-content: center;
 }
 
-main a{
+.price a{
   margin-bottom: 7px;
   color: black;
   border: solid 1px black;
@@ -164,10 +164,6 @@ main a{
   padding:0 10px;
 }
 
-main p{
-  padding: 5px;
-  text-align: center;
-}
 main li{
   list-style-type: none;
   font-size: 10;
@@ -184,7 +180,8 @@ article{
   background-color: white;
 }
 
-article{
+
+.product{
   border: solid 1px #B2B2B2;
   border-radius: 3px;
   box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
@@ -198,7 +195,6 @@ article{
 footer{
   background-color: #6E8898;
   width: 100%;
-  height: %;
 }
 
 footer p{
@@ -208,11 +204,36 @@ footer p{
   text-align: center;
 }
 
-/* Index */
+/* About */
 
 /* Single */
 
-/* About */
+.singleProduct{
+  border: solid 1px #B2B2B2;
+  border-radius: 3px;
+  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  width: 90%;
+  margin:8px 0;
+  padding: 8px;
+}
+
+.singleProduct img{
+  width: 90%;
+}
+
+.singleProduct h2{
+  text-align: center;
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleProduct span{
+  margin-right: 5px;
+}
 
 
 
