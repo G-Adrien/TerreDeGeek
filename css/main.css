@@ -89,19 +89,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* General rules */
-body{
 
+/* to define the page size and the font. */
+body{
   height: auto;
   width: 375px;
   font-family: 'Dosis', sans-serif;
 }
 
-
-
+/* to remove the underlining from the links */
 a{
   text-decoration: none;
 }
 
+/* to keep the proportion of the images */
 img{
   object-fit: contain;
 }
@@ -111,12 +112,17 @@ img{
 /* Index */
 /* Header */
 
+/* to put a background to the header, 
+to position the children of the header and center and align them */
 header{
   background-color: #2E5266;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+/* to change the font color of the links, put a border around them,
+ then round off the corners, and add inside and outside margins. */
 header a{
   color: white;
   border: solid 2px #E2C044;
@@ -127,6 +133,7 @@ header a{
   
 }
 
+/* to give a size to the logo container,  */
 .placementLogo{
   width: 70%;
   display: flex;
@@ -134,7 +141,7 @@ header a{
   align-items: center;
 }
 
-
+/* to put the element at the end of the container */
 nav{
   width: 40%;
   display: flex;
@@ -167,6 +174,7 @@ main h3{
   padding:0 10px;
 }
 
+/* to remove bullet point from the links */
 main li{
   list-style-type: none;
   font-size: 10;
@@ -183,7 +191,7 @@ article, .presentation{
   background-color: white;
 }
 
-
+/* to put a shadow on the element */
 .product{
   border: solid 1px #B2B2B2;
   border-radius: 3px;
