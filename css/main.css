@@ -91,9 +91,7 @@ textarea {
 /* General rules */
 
 /* to define the page size and the font. */
-body{
-  height: auto;
-  width: 375px;
+*{
   font-family: 'Dosis', sans-serif;
 }
 
@@ -107,30 +105,26 @@ img{
   object-fit: contain;
 }
 
+.card{
+  border: solid 1px #B2B2B2;
+  border-radius: 3px;
+  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  width: 90%;
+  padding: 8px;
+  background-color: white;
+}
 /* Utility classes */
 
-/* Index */
-/* Header */
+/* ################### Index ################### */
+/* ~~~~~~ Header ~~~~~~ */
 
 /* to put a background to the header, 
 to position the children of the header and center and align them */
 header{
   background-color: #2E5266;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-}
-
-/* to change the font color of the links, put a border around them,
- then round off the corners, and add inside and outside margins. */
-header a{
-  color: white;
-  border: solid 2px #E2C044;
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px;
-  margin-right: 8px;
-  
 }
 
 /* to give a size to the logo container,  */
@@ -141,20 +135,58 @@ header a{
   align-items: center;
 }
 
-/* to put the element at the end of the container */
-nav{
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
+/* ~~~~~~ NAV ~~~~~~ */
+
+/* to change the font color of the links, put a border around them,
+ then round off the corners, and add inside and outside margins. */
+nav a, nav i{
+  color: white;
+  font-size: 1.2em;
 }
 
-/* MAIN */
+nav li{
+  list-style-type: none;
+  font-size: 10;
+}
+nav ul{
+  padding: 0;
+}
+
+nav i{
+  margin-left: 5%;
+  margin-right: 15px;
+}
+
+nav{
+ background-color: #6E8898;
+ width: 100%;
+ padding: 1em 0;
+ 
+}
+
+nav ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ width: 90%;
+ margin: auto;
+}
+nav li{
+  width: 50%;
+  margin-bottom: 1em;
+  
+}
+
+
+
+/* ~~~~~~ MAIN ~~~~~~ */
 
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #EEDB95;
+  padding-bottom: 50px;
 }
 
 main h3{
@@ -172,6 +204,7 @@ main h3{
   border: solid 1px black;
   border-radius: 20px;
   padding:0 10px;
+  font-size: 1.3em;
 }
 
 /* to remove bullet point from the links */
@@ -193,29 +226,27 @@ article, .presentation{
 
 /* to put a shadow on the element */
 .product{
-  border: solid 1px #B2B2B2;
-  border-radius: 3px;
-  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  
   display: flex;
-  width: 90%;
   margin-bottom: 8px;
 }
 
-/* Footer*/
+/* ~~~~~~ Footer ~~~~~~ */
 
 footer{
   background-color: #6E8898;
-  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p{
-  margin: 0;
   font-size: small;
   color: white;
-  text-align: center;
 }
 
-/* About */
+/* ################### About ################### */
 
 .presentation{
   border: solid 1px #B2B2B2;
@@ -230,15 +261,11 @@ footer p{
   text-align: center;
 }
 
-/* Single */
+/* ################### Single  ################### */
 
 .singleProduct{
-  border: solid 1px #B2B2B2;
-  border-radius: 3px;
-  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
-  width: 90%;
-  margin:8px 0;
-  padding: 8px;
+   margin:8px 0;
+   
 }
 
 .singleProduct img{
@@ -257,11 +284,31 @@ footer p{
 
 .singleProduct span{
   margin-right: 5px;
+  font-size: 1.5em;
 }
 
 .fa-cart-arrow-down{
   color: #2E5266;
+  font-size: 1.5em;
 }
+
+/* ################### Prestation  ################### */
+
+table{
+ margin: 10px;
+ border-collapse: collapse;
+}
+
+th{
+  border-bottom: 1px solid black;
+}
+
+th, td{
+  font-size: 1.3em;
+}
+
+
+
 
 /* Font:
 Dosis
