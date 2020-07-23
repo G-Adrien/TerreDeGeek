@@ -105,10 +105,18 @@ img{
   object-fit: contain;
 }
 
+.card{
+  border: solid 1px #B2B2B2;
+  border-radius: 3px;
+  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  width: 90%;
+  padding: 8px;
+  background-color: white;
+}
 /* Utility classes */
 
-/* Index */
-/* Header */
+/* ################### Index ################### */
+/* ~~~~~~ Header ~~~~~~ */
 
 /* to put a background to the header, 
 to position the children of the header and center and align them */
@@ -127,7 +135,7 @@ header{
   align-items: center;
 }
 
-/* NAV */
+/* ~~~~~~ NAV ~~~~~~ */
 
 /* to change the font color of the links, put a border around them,
  then round off the corners, and add inside and outside margins. */
@@ -136,6 +144,13 @@ nav a, nav i{
   font-size: 1.2em;
 }
 
+nav li{
+  list-style-type: none;
+  font-size: 10;
+}
+nav ul{
+  padding: 0;
+}
 
 nav i{
   margin-left: 5%;
@@ -164,7 +179,7 @@ nav li{
 
 
 
-/* MAIN */
+/* ~~~~~~ MAIN ~~~~~~ */
 
 main{
   display: flex;
@@ -211,15 +226,12 @@ article, .presentation{
 
 /* to put a shadow on the element */
 .product{
-  border: solid 1px #B2B2B2;
-  border-radius: 3px;
-  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
+  
   display: flex;
-  width: 90%;
   margin-bottom: 8px;
 }
 
-/* Footer*/
+/* ~~~~~~ Footer ~~~~~~ */
 
 footer{
   background-color: #6E8898;
@@ -234,7 +246,7 @@ footer p{
   color: white;
 }
 
-/* About */
+/* ################### About ################### */
 
 .presentation{
   border: solid 1px #B2B2B2;
@@ -249,15 +261,11 @@ footer p{
   text-align: center;
 }
 
-/* Single */
+/* ################### Single  ################### */
 
 .singleProduct{
-  border: solid 1px #B2B2B2;
-  border-radius: 3px;
-  box-shadow: 10px 7px 20px -14px rgba(0,0,0,0.75);
-  width: 90%;
-  margin:8px 0;
-  padding: 8px;
+   margin:8px 0;
+   
 }
 
 .singleProduct img{
@@ -283,6 +291,22 @@ footer p{
   color: #2E5266;
   font-size: 1.5em;
 }
+
+/* ################### Prestation  ################### */
+
+table{
+ margin: 10px;
+ border-collapse: collapse;
+}
+
+th{
+  border-bottom: 1px solid black;
+}
+
+th, td{
+  font-size: 1.3em;
+}
+
 
 
 
