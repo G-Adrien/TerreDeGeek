@@ -145,16 +145,20 @@ nav i{
 nav{
  background-color: #6E8898;
  width: 100%;
+ padding: 1em 0;
  
 }
 
 nav ul {
  display: flex;
  flex-wrap: wrap;
+ justify-content: space-evenly;
+ width: 90%;
+ margin: auto;
 }
 nav li{
-  width: 50vw;
-  height: 8vh;
+  width: 50%;
+  margin-bottom: 1em;
   
 }
 
