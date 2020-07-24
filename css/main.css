@@ -253,6 +253,7 @@ footer p{
   }
   nav ul{
     flex-wrap: nowrap;
+    max-width: 760px;
   }
   nav li{
     text-align: center;
@@ -294,9 +295,6 @@ footer p{
   }
   .PC{
     width: 20%;
-  }
-  nav ul{
-    max-width: 1000px;
   }
 
 }
@@ -503,7 +501,20 @@ form div input, form div input select, form div textarea, form div label{
 }
 
 @media screen and (min-width: 768px){
-  
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  form div{
+    width: 50vw;
+    max-width: 400px;
+  }
+  .cardForm{
+    max-width: 900px;
+  }
 }
 
 @media screen and (min-width: 1200px){
