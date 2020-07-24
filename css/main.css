@@ -257,7 +257,7 @@ footer p{
   nav li{
     text-align: center;
   }
-  main div{
+  .figAndDes{
     align-items: center;
   }
   .descib{
@@ -267,7 +267,9 @@ footer p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5%;
+  }
+  .product{
+    padding-bottom: 5%;
   }
   footer p{
     font-size: medium;
@@ -366,9 +368,41 @@ th, td{
 }
 
 td{
-  
-  border-bottom: dotted 1px black;
- 
+  border-bottom: dotted 1px rgb(0, 0, 0);
+  text-align: center;
+}
+table tr:last-child td{
+  border: none;
+}
+.firstCol{
+  text-align: left;
+}
+
+.aray{
+ margin-top: 20px;
+ padding: 0;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+table{
+  width: 100%;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 768px){
+  .aray{
+    width: 60%;
+  }
+  table{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
 }
 
 /* ################### contact  ################### */
