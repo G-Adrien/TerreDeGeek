@@ -261,6 +261,13 @@ footer p{
   text-align: center;
 }
 
+iframe{
+  width: 90vw;;
+  height: 250px;
+}
+
+
+
 /* ################### Single  ################### */
 
 .singleProduct{
@@ -304,9 +311,30 @@ th{
 }
 
 th, td{
-  font-size: 1.3em;
+  font-size: 1.1m;
+  padding: 10px;
 }
 
+td{
+  
+  border-bottom: dotted 1px black;
+ 
+}
+
+/* ################### contact  ################### */
+
+form div{
+  display: flex;
+  flex-direction: column;
+}
+form div input, form div input select, form div textarea, form div label{
+  margin: 5px 0px;
+}
+
+.sub{
+  display: flex;
+  align-items: center;
+}
 
 
 
