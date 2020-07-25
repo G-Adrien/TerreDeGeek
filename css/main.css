@@ -360,7 +360,7 @@ iframe{
 
 .singleProduct{
    margin:8px 0;
-   
+   padding-bottom: 5%;
 }
 
 .singleProduct img{
@@ -380,16 +380,25 @@ iframe{
 .singleProduct span{
   margin-right: 5px;
   font-size: 1.5em;
+  
 }
 
 .fa-cart-arrow-down{
   color: #2E5266;
   font-size: 1.5em;
+  transition-property: font-size;
+  transition-duration: 0.2s;
+}
+
+.fa-cart-arrow-down:hover{
+  font-size: 2em;
 }
 
 .moreDescrip{
   display: none;
 }
+
+
 
 @media screen and (min-width: 768px){
   .figAndDes{
